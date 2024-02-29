@@ -1,0 +1,193 @@
+.wallpepar-9-icon {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.first-wallpaper-icon {
+  width: 210px;
+  height: 228px;
+  position: relative;
+  border-radius: var(--br-6xl);
+  object-fit: cover;
+  z-index: 1;
+}
+.article-370-2024,
+.blank-line10,
+.blank-line11,
+.blank-line12,
+.blank-line6,
+.blank-line7,
+.blank-line8,
+.blank-line9,
+.description1,
+.duration1,
+.genre1,
+.h-20mint,
+.hindi,
+.language1,
+.name1,
+.p1,
+.release-date1,
+.starcast1,
+.thrillerdrama,
+.yami-gautam-priyamani,
+.zooni-a-spy {
+  margin: 0;
+}
+.name-article-370-container {
+  flex: 1;
+  position: relative;
+  z-index: 1;
+}
+.name-article-370-2024-boll-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xs) var(--padding-32xl) 4px;
+  text-align: left;
+  font-size: var(--font-size-xs);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+.play1,
+.rectangle-pair {
+  position: relative;
+  cursor: pointer;
+}
+.rectangle-pair {
+  height: 32px;
+  width: 112px;
+  background-color: var(--color-gainsboro);
+  z-index: 1;
+}
+.play1 {
+  font-size: var(--font-size-base);
+  display: inline-block;
+  font-family: var(--font-inter);
+  color: var(--color-black);
+  text-align: left;
+  z-index: 2;
+  margin-left: -76px;
+}
+.download-frame3 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  width: 112px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.rectangle-div {
+  height: 32px;
+  flex: 1;
+  position: relative;
+  background-color: var(--color-gainsboro);
+  cursor: pointer;
+  z-index: 1;
+}
+.download4 {
+  height: 25px;
+  position: relative;
+  display: inline-block;
+  z-index: 2;
+  margin-left: -96px;
+}
+.download-frame4 {
+  height: 33px;
+  width: 112px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl) 0 0;
+  box-sizing: border-box;
+}
+.play-frame,
+.third-frame {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.play-frame {
+  flex: 1;
+  justify-content: space-between;
+}
+.third-frame {
+  width: 377px;
+  justify-content: flex-start;
+  padding: 0 var(--padding-17xl);
+  box-sizing: border-box;
+}
+.home-movies-frame-item {
+  height: 48px;
+  width: 428px;
+  position: relative;
+  background-color: var(--color-gainsboro);
+  display: none;
+}
+.download5,
+.home4,
+.movies3 {
+  position: relative;
+  z-index: 2;
+}
+.home-movies-frame2 {
+  align-self: stretch;
+  background-color: var(--color-gainsboro);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: var(--padding-xs) var(--padding-41xl) var(--padding-xs) 35px;
+  z-index: 1;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+.inner-frame {
+  width: 428px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 14px 0;
+}
+.inner-frame,
+.inner-frame-wrapper,
+.movie1 {
+  display: flex;
+  justify-content: flex-start;
+}
+.inner-frame-wrapper {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+.movie1 {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  flex-direction: column;
+  align-items: center;
+  padding: 85px 0 var(--padding-22xl);
+  box-sizing: border-box;
+}

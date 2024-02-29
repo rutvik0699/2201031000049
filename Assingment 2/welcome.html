@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="initial-scale=1, width=device-width" />
+  <style>
+    body {
+      position: relative;
+      width: 300px;
+      height: 600px;
+      border: 1px solid black;
+    }
+
+    .logo-removebg-1-icon,
+    .wallpepar-1-icon {
+      width: auto;
+    }
+
+    .wallpepar-1-icon {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      margin: 0 !important;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+    }
+
+    .logo-removebg-1-icon {
+      align-self: stretch;
+      position: relative;
+      z-index: 1;
+    }
+
+    .main-f-r-a-m-e-child {
+      height: 74px;
+      width: 203px;
+      position: relative;
+      border-radius: var(--br-xl);
+      cursor: pointer;
+      z-index: 1;
+    }
+
+    .start {
+      position: relative;
+      font-size: 32px;
+      display: inline-block;
+      color: black;
+      text-align: left;
+      z-index: 2;
+      margin-left: -155px;
+    }
+
+    .main-f-r-a-m-e,
+    .welcome {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      box-sizing: border-box;
+    }
+
+    .main-f-r-a-m-e {
+      cursor: pointer;
+      border: 0;
+      padding: 20px;
+      background-color: transparent;
+      width: 243px;
+      flex-direction: row;
+    }
+
+    .welcome {
+      width: 100%;
+      position: relative;
+      background-color: #302e2e;
+      overflow: hidden;
+      flex-direction: column;
+      padding: 222px 0 263px;
+      gap: 89px 0;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="welcome">
+    <img class="wallpepar-1-icon" alt="" src="./public/wallpepar-1@2x.png" />
+
+    <img class="logo-removebg-1-icon" alt="" src="./public/logoremovebg-1@2x.png" />
+
+    <button class="main-f-r-a-m-e">
+      <img class="main-f-r-a-m-e-child" alt="" src="./public/rectangle-3.svg" id="rectangle" />
+
+      <b class="start">START</b>
+    </button>
+  </div>
+</body>
+
+</html>

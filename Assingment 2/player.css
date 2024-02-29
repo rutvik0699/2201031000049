@@ -1,0 +1,126 @@
+.salaar-part2,
+.wallpepar-11-icon {
+  position: absolute;
+  margin: 0 !important;
+}
+.wallpepar-11-icon {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.salaar-part2 {
+  top: 48px;
+  left: calc(50% - 146.5px);
+  display: inline-block;
+  z-index: 1;
+}
+.player-removebg-preview-1-icon {
+  height: 467px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+  z-index: 2;
+}
+.download-removebg-preview-1-icon {
+  height: 68px;
+  width: 338px;
+  position: absolute;
+  margin: 0 !important;
+  right: 27px;
+  bottom: -18px;
+  object-fit: cover;
+  z-index: 3;
+}
+.outer-frame {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  text-align: left;
+  font-size: var(--font-size-mini);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+.telegram-removebg-preview-1 {
+  height: 80.7px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+  z-index: 1;
+}
+.telegram-preview {
+  width: 378px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl) var(--padding-32xl);
+  box-sizing: border-box;
+}
+.download-button-child {
+  height: 48px;
+  width: 428px;
+  position: relative;
+  background-color: var(--color-gainsboro);
+  display: none;
+}
+.home6 {
+  cursor: pointer;
+}
+.download8,
+.home6,
+.movies5 {
+  position: relative;
+  z-index: 2;
+}
+.download-button2 {
+  width: 428px;
+  background-color: var(--color-gainsboro);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: var(--padding-xs) 61px var(--padding-xs) var(--padding-17xl);
+  box-sizing: border-box;
+  z-index: 1;
+}
+.home-movies-frame4,
+.player {
+  overflow: hidden;
+  display: flex;
+  justify-content: flex-start;
+}
+.home-movies-frame4 {
+  align-self: stretch;
+  background-color: var(--color-gainsboro);
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+.player {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  flex-direction: column;
+  align-items: center;
+  padding: var(--padding-6xl) 0 var(--padding-22xl);
+  box-sizing: border-box;
+  gap: 70px 0;
+}
